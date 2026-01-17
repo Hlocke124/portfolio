@@ -7,7 +7,7 @@ const ProjectPage = () => {
         <div>
             <Navbar/>
             <div className="container mx-auto px-4 py-8 p-5 max-w">
-                <ProjectCard/>
+                <ProjectCard />
              </div>
          </div>
      );

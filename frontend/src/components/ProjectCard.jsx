@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
+import scamazonImage from '/public/assets/Scamazon.png';
 
 const ProjectCard = (title, github) => {
     return (
@@ -7,14 +8,16 @@ const ProjectCard = (title, github) => {
             <h1 className="justify-center flex text-3xl font-semibold mb-6">My Projects</h1>
             <div className="card bg-base-200 w-80 mt-4 shadow-sm">
                 <div className="card-body items-center text-center">
+                    <Link to="https://runtime-rebelss.github.io/Runtime-Rebels-Project-1/" target="_blank" rel="noopener noreferrer">
+                        <img src={scamazonImage} alt={"scamazon"}/>
+                    </Link>
                     <h2 className="card-title">
-                        <Link to="https://runtime-rebelss.github.io/Runtime-Rebels-Project-1/" className="link-hover">
-                            Scamazon
-                        </Link>
-                        </h2>
+                        Scamazon
+                    </h2>
                     <p mt-4>Ecommerce class project built using Spring-Boot and React for frontend</p>
                     <div className="card-actions">
-                        <Link to={"https://github.com/Runtime-Rebelss/Runtime-Rebels-Project-1"} className="btn bg-black">
+                        <Link to={"https://github.com/Runtime-Rebelss/Runtime-Rebels-Project-1"}
+                              className="btn bg-black">
                             <svg aria-label="GitHub logo" width="16" height="16" xmlns="http://www.w3.org/2000/svg"
                                  viewBox="0 0 24 24">
                                 <path fill="white"
