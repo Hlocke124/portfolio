@@ -1,16 +1,30 @@
 import React from "react";
+import {useEffect, useState} from "react";
 import Navbar from "../components/Navbar.jsx";
+import AvatarCard from "../components/AvatarCard.jsx";
 
 const Homepage = () => {
+    const [devs, setDevs] = useState([]);
+
+    useEffect(() => {
+        fetch(`${import.meta.env.BASE_URL}team.json`)
+            .then((response) => response.json())
+            .then((data) => setDevs(data))
+            .catch((error) => console.error("Error fetching team data:", error));
+    }, []);
+
     return (
         <div>
             <Navbar/>
             <div className="container mx-auto px-4 py-8 p-5 max-w">
-                <h1 className="justify-center flex text-2xl font-semibold mb-6">Welcome to the Homepage</h1>
-                 <p mt-4>This is the main landing page of our application.</p>
-             </div>
-         </div>
-     );
- }
+                <div className="item-center flex justify-center mt-6">
+                    {devs.map((dev) => (
+                        <AvatarCard key={dev.id} avatar={dev.avatar} name={dev.name} github={dev.github} linkedin={dev.linkedin}/>
+                    ))}
+                </div>
+            </div>
+        </div>
+    );
+}
 
- export default Homepage;
+export default Homepage;
