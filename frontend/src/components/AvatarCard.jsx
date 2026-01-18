@@ -16,7 +16,7 @@ function AvatarCard({avatar, name, github, linkedin}) {
             </div>
             <div className="card-body items-center text-center">
                 <h2 className="card-title">{name}</h2>
-                <p mt-4>Hi, I am currently a junior at California State University, Northridge majoring in computer science,
+                <p>Hi, I am currently a junior at California State University, Northridge majoring in computer science,
                     with an expected graduation date of Spring 2027. I enjoy doing both backend and frontend programming.
                     I am however, more passionated about going into the field of Machine Learning and AI development after graduation.
                 </p>

@@ -12,7 +12,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 {/* RIGHT SIDE - PROJECTS, EXPERIENCE, EDUCATION, PHOTOS, ABOUT ME */}
-                <div className="flex items-center gap-2 ml-auto px-10 py-2">
+                <div className="hidden md:flex items-center gap-2 ml-auto px-10 py-1 justify-end">
                     <Link to="/projects" className="btn btn-ghost normal-case text-lg px-0">
                         Projects
                     </Link>
@@ -29,8 +29,24 @@ const Navbar = () => {
                         About Me
                     </Link>
                 </div>
-
-
+                {/* RIGHT SIDE SMALLER SCREENS - PROJECTS, EXPERIENCE, EDUCATION, PHOTOS, ABOUT ME */}
+                <div className="px-4 pb-1 flex md:hidden">
+                    <Link to="/projects" className="btn btn-ghost normal-case text-lg px-0">
+                        Projects
+                    </Link>
+                    <Link to="/experience" className="btn btn-ghost normal-case text-lg px-0">
+                        Experience
+                    </Link>
+                    <Link to="/education" className="btn btn-ghost normal-case text-lg px-0">
+                        Education
+                    </Link>
+                    <Link to="/photos" className="btn btn-ghost normal-case text-lg px-0">
+                        Photos
+                    </Link>
+                    <Link to="/about" className="btn btn-ghost normal-case text-lg px-0">
+                        About Me
+                    </Link>
+                </div>
             </div>
         </div>
     )

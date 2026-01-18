@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 import Navbar from "../components/Navbar.jsx";
 import AvatarCard from "../components/AvatarCard.jsx";
 
-const Homepage = () => {
+const HomePage = () => {
     const [devs, setDevs] = useState([]);
 
     useEffect(() => {
@@ -27,4 +27,4 @@ const Homepage = () => {
     );
 }
 
-export default Homepage;
+export default HomePage;
