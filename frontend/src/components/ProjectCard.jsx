@@ -15,7 +15,7 @@ const ProjectCard = (title, github) => {
                     <h2 className="card-title">
                         Scamazon
                     </h2>
-                    <p mt-4>Ecommerce class project built using Spring-Boot and React for frontend</p>
+                    <p>E-commerce class project built using Spring-Boot and React</p>
                     <div className="card-actions">
                         <Link to={"https://github.com/Runtime-Rebelss/Runtime-Rebels-Project-1"}
                               className="btn bg-black">
