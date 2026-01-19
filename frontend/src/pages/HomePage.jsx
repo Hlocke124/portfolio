@@ -7,7 +7,7 @@ const HomePage = () => {
     const [devs, setDevs] = useState([]);
 
     useEffect(() => {
-        fetch(`${import.meta.env.BASE_URL}team.json`)
+        fetch(`${import.meta.env.BASE_URL}avatar.json`)
             .then((response) => response.json())
             .then((data) => setDevs(data))
             .catch((error) => console.error("Error fetching team data:", error));
