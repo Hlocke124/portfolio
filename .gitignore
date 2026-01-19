@@ -1,0 +1,16 @@
+# --- IDE ---
+.idea/
+.vscode/
+.github/
+*.iml
+
+# ============================
+#   Operating System Files
+# ============================
+.DS_Store
+Thumbs.db
+
+# --- Node (React frontend) ---
+frontend-vite/node_modules/
+frontend-vite/.env
+frontend-vite/.vite/
