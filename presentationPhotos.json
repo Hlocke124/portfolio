@@ -2,25 +2,25 @@
   {
     "id": 1,
     "title": "CSUN SFS2 2nd Annual Symposium 2025",
-    "url": "src/assets/IXLA SFS2-87.jpg",
+    "url": "assets/IXLA SFS2-87.jpg",
     "description": "CSUN SFS2 2nd Annual Symposium 2025 Presentation.",
     "credit": "Photo Credit: Aika Taguchi, IXLA."
   },
   {
     "id": 2,
     "title": "",
-    "url": "src/assets/IXLA SFS2-91.jpg",
+    "url": "assets/IXLA SFS2-91.jpg",
     "description": "Photo Credit: Aika Taguchi, IXLA."
   },
   {
     "id": 3,
-    "url": "src/assets/IXLA SFS2-188.jpg",
+    "url": "assets/IXLA SFS2-188.jpg",
     "description": "Energy-efficient Thermal-aware Workload Scheduling in Datacenters Poster Presentation.",
     "credit": "Photo Credit: Aika Taguchi, IXLA."
   },
   {
     "id": 4,
-    "url": "src/assets/IXLA SFS2-187.jpg",
+    "url": "assets/IXLA SFS2-187.jpg",
     "description": "Photo Credit: Aika Taguchi, IXLA."
   }
 ]
