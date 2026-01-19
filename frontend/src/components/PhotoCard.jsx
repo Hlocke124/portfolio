@@ -1,5 +1,4 @@
 import React from "react";
-import presentationPhotos from "../../public/presentationPhotos.json";
 
 const PhotoCard = ({title, url, description, credit}) => {
     return (

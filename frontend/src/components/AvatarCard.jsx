@@ -3,14 +3,13 @@ import {Link} from "react-router-dom";
 
 function AvatarCard({avatar, name, github, linkedin}) {
 
-    const fileName = name.toLowerCase().trim().replace(/\s+/g, "-");
-    const imgUrl = `${import.meta.env.BASE_URL}${fileName}.jpg`;
+    const imgUrl = `${import.meta.env.BASE_URL}${avatar}`;
 
     return (
         <div className="card bg-base-100 w-120 mt-4 shadow-sm">
             <div className="avatar justify-center mt-4">
                 <div className="w-40 rounded-full">
-                    <img src={avatar}
+                    <img src={imgUrl}
                          alt={name}/>
                 </div>
             </div>
