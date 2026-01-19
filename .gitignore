@@ -14,3 +14,4 @@ Thumbs.db
 frontend-vite/node_modules/
 frontend-vite/.env
 frontend-vite/.vite/
+node_modules
