@@ -7,7 +7,6 @@ import EducationPage from "./pages/EducationPage.jsx"
 import PhotoPage from "./pages/PhotoPage.jsx"
 import ProjectPage from "./pages/ProjectPage.jsx"
 
-
 function App() {
     return (
         <div className="relative h-full w-full">
