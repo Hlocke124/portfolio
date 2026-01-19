@@ -1,5 +1,5 @@
 import React from 'react'
-import {Routes, Route} from "react-router-dom"
+import {HashRouter, Routes, Route} from "react-router-dom"
 import HomePage from "./pages/HomePage.jsx"
 import AboutMePage from "./pages/AboutMePage.jsx"
 import ExperiencePage from "./pages/ExperiencePage.jsx"
